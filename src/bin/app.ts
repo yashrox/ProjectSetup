@@ -14,7 +14,7 @@ class Application {
   }
 
   /** 
-   * @description Instance of exprees
+   * @description Instance of express
   */
   instance = express();
 
