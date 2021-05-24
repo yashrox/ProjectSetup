@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    /* Basic Options */
+    // "incremental": true,                   /* Enable incremental compilation */
+    "target": "es6",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    "module": "commonjs",                     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "outDir": "build/",                        /* Redirect output structure to the directory. */
+    /* Strict Type-Checking Options */
+    "strict": true,     
+    "moduleResolution": "node",                      
+    "esModuleInterop": true,
+    "paths": {
+			"@src/*": [
+				"src/*"
+			],
+			"@app/*": [
+				"src/app/*"
+			],
+			"@api/*": [
+				"src/app/api/*"
+			],
+			"@socket/*": [
+				"src/app/socket/*"
+			],
+			"@utils/*": [
+				"src/utils/*"
+			],
+			"@database/*": [
+				"src/database/*"
+			],
+			"@constants/*": [
+				"src/app/constants/*"
+			],
+			"@validators/*": [
+				"src/app/validators/*"
+			],
+			"@middlewares/*": [
+				"src/app/middlewares/*"
+			]
+		}                   
+  }
+}

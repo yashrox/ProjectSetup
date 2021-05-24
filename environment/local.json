@@ -1,0 +1,25 @@
+{
+  "NODE_ENV": "local",
+  "SERVER": 3000,
+  "url": "http://localhost:3000",
+    "mongodb": {
+        "uri": "mongodb://localhost:27017/project-setup",
+        "usr": "",
+        "pwd": ""
+    },
+    "postgres": {
+    "username": "postgres",
+		"password": "postgres",
+		"database": "project_setup_db",
+		"host": "localhost",
+		"port": "5433",
+		"dialect": "postgres",
+		"ssl": false,
+		"pool": {
+			"max": 70,
+			"min": 0,
+			"idle": 10000
+		}
+    },
+    "is_Local": true
+}
